@@ -1198,9 +1198,204 @@ content: none;
     background: url(../img/button-up.svg) no-repeat center center;
 }
 
-
-
 /* END new slider controls */
+
+@media (max-width: 999px) {
+  .zeen-prev {
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+    top: 0%;
+    left: 0px;
+    margin: unset;
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: url(../img/button-down.svg) no-repeat center center;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+    z-index: 5;
+  }
+  .zeen-next {
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+    top: 300px;
+    left: 0px;
+    margin: unset;
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: url(../img/button-up.svg) no-repeat center center;
+    z-index: 5;
+  }
+}
+
+
+@media (max-width: 767px){
+  img.zeen-item-nav-img {
+    width: 118px;
+    height: auto;
+    /* font-family: Roboto Mono; */
+    /* font-style: normal; */
+    /* font-weight: 300; */
+    /* font-size: 124px; */
+    /* line-height: 180px; */
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: center;
+    /* letter-spacing: -0.09em; */
+    mix-blend-mode: normal;
+    margin: 0px auto;
+  }
+  .zeen-item-title {
+    /* max-width: 435px; */
+    width: 100%;
+    height: auto;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #07090C;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .zeen-item-body {
+    max-width: unset;
+    width: 100%;
+    height: auto;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 26px;
+    display: block;
+    color: #07090C;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  img.rounded-circle-t {
+    width: 100%;
+  }
+  .six-screen-wrapper {
+    position: relative;
+    z-index: 3;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+  .revolver {
+    display: none;
+  }
+
+  .zeen-slider-wrapper {
+    display: none;
+  }
+  .zeen-slider-wrapper-mobile {
+    display: block !important;
+  }
+
+  .zeen-slider-buttons {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+  }
+  .zeen-slider-buttons-mobile {
+    display: -webkit-flex;
+    -webkit-justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 30px 0;
+  }
+
+  .zeen-prev {
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+    top: unset;
+    left: unset;
+    margin: 0px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: url(../img/button-down.svg) no-repeat center center;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+    z-index: 5;
+  }
+  .zeen-next {
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: url(../img/button-up.svg) no-repeat center center;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+    z-index: 5;
+  }
+  
+  .zeen-item.slick-slide {
+    max-height: 600px;
+  }
+  .zeen-item.slick-slide.slick-current.slick-active {
+    height: 100%;
+  }
+
+
+}
+
+
 
 
 /* Seven screen */
