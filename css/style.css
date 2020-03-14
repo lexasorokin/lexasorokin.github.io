@@ -171,7 +171,7 @@ html, body {
 }
 @media (min-width: 992px) and (max-width: 1199px) {} */
 
-@media (max-width: 1149px) {
+@media (max-width: 1179px) {
     .main-title h1 {
         max-width: 634px;
         height: auto;
@@ -245,7 +245,22 @@ html, body {
     }
 }
 
-@media (max-width: 495px) {
+@media (max-width: 649px) {
+
+  .logo-bg {
+    padding-top: 0px;
+    width: 25%;
+  }
+  .main-title {
+    padding-top: 20%;
+    margin-left: 4vw;
+    width: 70%;
+  }
+
+}
+
+
+/*@media (max-width: 495px) {
     .logo-bg {
         padding-top: 0px;
         margin-left: -120px;
@@ -273,7 +288,7 @@ html, body {
         margin-left: 0vw;
         width: 60%;
     }
-}
+} */
 
 /* END first-screen */
 
@@ -291,11 +306,17 @@ html, body {
     padding-top: 300px;
 }
 
-.need-jeen-svg {
+/*.need-jeen-svg {
     position: absolute;
     width: 50vw;
     top: 500px;
     right: 20px;
+}*/
+.need-jeen-svg {
+  position: absolute;
+  width: 50vw;
+  top: 300px;
+  left: 0px;
 }
 .blob {
     margin: auto;
@@ -371,6 +392,28 @@ float: right;
         line-height: 96px;
         color: #07090C;
         padding: 0px 30px;
+    }
+    .second-screen-wrapper {
+      /* padding-top: 300px; */
+      padding-bottom: 150px;
+      padding-top: 100px;
+    }
+    .need-jeen-svg {
+      position: absolute;
+      width: 50vw;
+      top: 500px;
+      left: -50px;
+    }
+    .second-screen-item {
+      max-width: 260px;
+      min-height: 180px;
+      font-family: Roboto Mono;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 32px;
+      color: #07090C;
+      float: right;
     }
 }
 @media (max-width: 767px) {
@@ -1847,6 +1890,13 @@ color: #FFFFFF;
 
 
 
+
+
+
+
+
+
+
 /* temponary fixes */
 
 @media (max-width: 480px){
@@ -2104,7 +2154,7 @@ color: #FFFFFF;
         /* padding-top: 300px; */
         padding-bottom: 50px;
         background: none; 
-        background-size: 0%%;
+        background-size: 0%;
         /* background-repeat: no-repeat; */
         /* background-position-y: top; */
         /* background-position-x: right; */
