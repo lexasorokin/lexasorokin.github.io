@@ -857,7 +857,8 @@ img.event-img {
 /* Five screen (How it work) */
 
 .five-screen-wrapper {
-    margin-top: 200px;
+    /*margin-top: 200px;*/
+    margin-top: -200px;
     margin-bottom: 100px;
 }
 
@@ -962,7 +963,7 @@ img.event-img {
   }
 
   .how_it_work_text {
-      padding-top: 30px;
+      padding-top: 50px;
   }
 
   .item_how_it_work.right{
@@ -973,6 +974,81 @@ img.event-img {
       text-align: left;
       padding-left: 0;
       padding-right: 35px;
+  }
+  .five-screen-wrapper {
+    margin-top: 200px;
+    margin-bottom: 100px;
+  }
+  /**/
+  .work-klaksa {
+    display: none;
+  }
+  .how_it_work_namber {
+    background: #fff;
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100px;
+    line-height: 92px;
+    height: 100px;
+    border: 2.5px solid #9963ca;
+    border-radius: 90px;
+    text-align: center;
+    /*vertical-align: middle;*/
+    position: relative;
+    z-index: 5;
+    margin: 0 auto;
+  }
+  .item_how_it_work {
+    width: 100%;
+    text-align: center;
+  }
+  .how_it_work_text {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    color: #454649;
+    padding-left: 0px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    position: relative;
+    z-index: 5;
+    max-width: 500px;
+  }
+  .item_how_it_work.right {
+    width: 100%;
+    text-align: center;
+  }
+  .item_how_it_work.right .how_it_work_text {
+      text-align: left;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .item_how_it_work .how_it_work_text {
+      text-align: left;
+  }
+  .item_how_it_work.right .how_it_work_text {
+      text-align: left;
+  } 
+
+
+}
+
+@media (max-width: 599px) {
+
+  .title_how_it_work {
+    width: 100%;
+    height: auto;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #07090C;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    text-align: center;
   }
 
 }
