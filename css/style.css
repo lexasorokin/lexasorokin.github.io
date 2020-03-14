@@ -421,7 +421,8 @@ float: right;
         /* padding-top: 300px; */
         padding-bottom: 200px;
         background: url(../img/need-zeen.png);
-        background-size: 100%;
+        /*background-size: 100%;*/
+        background-size: 42%;
         background-repeat: no-repeat;
         background-position-y: top;
         background-position-x: right;
