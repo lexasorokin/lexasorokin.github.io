@@ -416,7 +416,7 @@ float: right;
       float: right;
     }
 }
-@media (max-width: 767px) {
+@media (max-width: 799px) {
     .second-screen-wrapper {
         /* padding-top: 300px; */
         padding-bottom: 200px;
@@ -458,6 +458,14 @@ float: right;
     }
     .second-screen-items-left, .second-screen-items-right {
         margin-top: 50px;
+    }
+
+    .need-jeen-svg {
+      position: absolute;
+      width: 50vw;
+      top: 500px;
+      left: -50px;
+      display: none;
     }
 }
 
