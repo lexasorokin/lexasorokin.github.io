@@ -2324,11 +2324,30 @@ color: #FFFFFF;
     margin-bottom: 100px;
   }
 
+  .copyright {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #07090C;
+    margin-left: 0px;
+    text-align: center;
+  }
+  .privacy {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #07090C;
+    text-align: center;
+    margin-right: 0px;
+  }
+
 }
-
-
-
-
 
 
 
