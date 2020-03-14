@@ -1580,6 +1580,8 @@ color: #FFFFFF;
 
 .seven-left-wrapper {
     margin-top: 160px;
+    position: relative;
+    z-index: 2;
 }
 
 .seven-right-wrapper {
@@ -1604,7 +1606,92 @@ position: relative;
 z-index: 2;
 }
 
+@media (max-width: 879px) {
 
+  .seven-left-title {
+    max-width: 460px;
+    height: auto;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 36px;
+  }
+  .seven-right-title {
+    max-width: 428px;
+    height: auto;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+  }
+  .seven-left-body {
+    max-width: 520px;
+    height: auto;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .seven-right-body {
+    max-width: 520px;
+    height: auto;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+  .svg-glitch svg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    fill: white;
+    /* background: #1c2d35; */
+    width: 380px;
+    /* height: 482px; */
+    height: auto;
+  }
+  .svg-glitch {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 380px;
+    height: 170px;
+  }
+  .bottom-logo {
+    margin-top: -184px;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  .seven-right-smiles {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 92px;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 60px;
+  }
+
+}
 
 
 
@@ -2686,8 +2773,8 @@ color: #FFFFFF;
 
 
     .five-screen-wrapper {
-        margin-top: 170px;
-        margin-bottom: 100px;
+      margin-top: -350px;
+      margin-bottom: 100px;
     }
     .title_how_it_work {
         width: 100%;
