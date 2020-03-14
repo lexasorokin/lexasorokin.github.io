@@ -2301,7 +2301,30 @@ color: #FFFFFF;
 }
 
 
+@media (max-width: 767px) {
 
+  .contact-title {
+    max-width: unset;
+    max-width: 100%;
+    height: auto;
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 52px;
+    line-height: 58px;
+    color: #07090C;
+  }
+  .contact {
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 28px;
+    color: #07090C;
+    margin-bottom: 100px;
+  }
+
+}
 
 
 
