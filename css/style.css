@@ -683,7 +683,8 @@ img.event-img {
     left: 40%;
 }
 .img-four-screen {
-    margin-bottom: -590px;
+    /*margin-bottom: -590px;*/
+    margin-bottom: 0px;
     position: relative;
     z-index: 3;
 }
@@ -713,7 +714,35 @@ img.event-img {
         margin: 50px 20px;
         z-index: 2;
     }
+    .auditory-img {
+      z-index: 3;
+      position: relative;
+      text-align: center;
+      padding-top: 0;
+      margin-top: -150px;
+      margin-left: -120px;
+    }
+    img.event-img {
+      position: absolute;
+      top: 10px;
+      left: 35%;
+    }
+    .auditory-body {
+      max-width: 360px;
+      width: 100%;
+      height: auto;
+      font-family: Roboto Mono;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 32px;
+      color: #07090C;
+      margin-top: 42px;
+      position: relative;
+      z-index: 4;
+    }
 }
+
 @media (max-width: 1067px) {
     .faq_item {
         width: 100%;
@@ -777,12 +806,14 @@ img.event-img {
     .auditory-img img {
         width: 70%;
     }
+
     img.event-img {
-        position: absolute;
-        top: 110px;
-        left: 40%;
-        width: 30%;
+      position: absolute;
+      top: 110px;
+      left: 40%;
+      width: 30%;
     }
+    
     .img-four-screen {
         overflow: hidden;
     }
@@ -800,6 +831,27 @@ img.event-img {
         transition: all 0.4s;
         opacity: 1;
     }
+    
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+  img.event-img {
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    width: 30%;
+  }
+
+  .auditory-img {
+    z-index: 3;
+    position: relative;
+    text-align: center;
+    padding-top: 0;
+    margin-top: -150px;
+    margin-left: 0px;
+  }
+
 }
 
 /* Five screen (How it work) */
@@ -905,23 +957,23 @@ img.event-img {
 
 @media (max-width: 965px){
 
-.item_how_it_work {
+  .item_how_it_work {
+      width: 90%;
+  }
+
+  .how_it_work_text {
+      padding-top: 30px;
+  }
+
+  .item_how_it_work.right{
     width: 90%;
-}
+  }
 
-.how_it_work_text {
-    padding-top: 30px;
-}
-
-.item_how_it_work.right{
-	width: 90%;
-}
-
-.item_how_it_work.right .how_it_work_text {
-    text-align: left;
-    padding-left: 0;
-    padding-right: 35px;
-}
+  .item_how_it_work.right .how_it_work_text {
+      text-align: left;
+      padding-left: 0;
+      padding-right: 35px;
+  }
 
 }
 
@@ -1475,6 +1527,11 @@ margin-top: 92px;
 position: relative;
 z-index: 2;
 }
+
+
+
+
+
 
 /* Glitch */
 
@@ -2504,19 +2561,20 @@ color: #FFFFFF;
         height: auto;
     }
     .auditory-img {
-        z-index: 3;
-        position: relative;
-        text-align: center;
-        padding-top: 50px;
+      z-index: 3;
+      position: relative;
+      text-align: center;
+      padding-top: 50px;
+      margin: 0 auto;
     }
     .auditory-img img {
         width: 80%;
     }
     img.event-img {
-        position: absolute;
-        top: 55px;
-        left: 33%;
-        width: 40%;
+      position: absolute;
+      top: 55px;
+      left: 38%;
+      width: 40%;
     }
     .auditory-title {
         width: 100%;
