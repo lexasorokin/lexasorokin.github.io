@@ -1385,14 +1385,6 @@ content: none;
     z-index: 5;
   }
   
-  .zeen-item.slick-slide {
-    max-height: 600px;
-  }
-  .zeen-item.slick-slide.slick-current.slick-active {
-    height: 100%;
-  }
-
-
 }
 
 
