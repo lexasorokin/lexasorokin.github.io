@@ -924,6 +924,10 @@ img.event-img {
     z-index: 5;
 }
 
+.how_it_work_text b {
+  font-weight: 700;
+}
+
 .item_how_it_work.right{
 	float: right;
 	width: 65.8%;
