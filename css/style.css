@@ -1107,6 +1107,9 @@ img.event-img {
     color: #07090C;
     margin-top: 30px;
 }
+.zeen-item-body b {
+  display: contents;
+}
 .zeen-item-nav {
     width: 138px;
     height: auto;
@@ -2719,7 +2722,7 @@ color: #FFFFFF;
         color: #07090C;
         margin-top: 50px;
         margin-bottom: 50px;
-        text-align: center;
+        text-align: left;
     }
     img.rounded-circle-t {
         width: 100%;
