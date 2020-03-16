@@ -27,7 +27,7 @@ $question = trim($question);
 //echo $question;
 
 
-if (mail("zeen@eventum-premo.ru", "Заявка с сайта Zeen", "ФИО:".$name."  Компания:".$company.".  E-mail: ".$email." Описание задачи:".$question ,"From: info@eventum-premo.ru \r\n"))
+if (mail("zeen@eventum-premo.ru", "Заявка с сайта Zeen", "ФИО:".$name."  Компания:".$company.".  E-mail: ".$email." Описание задачи:".$question ,"From:sorokin.developer@gmail.com\r\n"))
  {     echo "сообщение успешно отправлено";
 } else {
     echo "при отправке сообщения возникли ошибки";
