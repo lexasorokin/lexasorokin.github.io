@@ -69,26 +69,45 @@ $(document).ready(function () {
         return false;
     });
 
-    $(document).on('submit', function (e) {
+    /*$(document).on('submit', function (e) {
         e.preventDefault();
         Swal.fire(
-            '   Поздравляем!',
+            'Поздравляем!',
             'Форма отправлена, мы свяжемся с вами!',
             'success'
         )
-        f.submit();
-    });
+        //f.submit();
+        //window.location.reload();
+    });*/
 
 
 });
 
-/* function message(f) {
-    if (confirm
-        (Swal.fire(
-            'Good job!',
-            'Функция message сработала c условием!',
-            'success'
-        ))
-    )
-        f.submit();
-} */
+function message(f) {
+    //редирект window.open("http://ya.ru"); window.history.back();
+    /*(Swal.fire(
+        'Good job!',
+        'Функция message сработала c условием!',
+        'success'
+    ))*/
+    //f.submit();
+    Swal.fire({
+        title: 'Спасибо за обращение!',
+        text: "Мы с вами свяжемся в ближайшее время",
+        icon: 'success',
+        showCancelButton: false,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Продолжить просмотр'
+    }).then((result) => {
+        if (result.value) {
+            /*Swal.fire(
+                'Deleted!',
+                'Your file has been deleted.',
+                'success'
+            )*/
+            //window.history.back()
+            window.location.href = '/'
+        }
+    })
+} 
