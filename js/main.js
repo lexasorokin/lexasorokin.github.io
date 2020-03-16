@@ -69,6 +69,26 @@ $(document).ready(function () {
         return false;
     });
 
+    $(document).on('submit', function (e) {
+        e.preventDefault();
+        Swal.fire(
+            '   Поздравляем!',
+            'Форма отправлена, мы свяжемся с вами!',
+            'success'
+        )
+        f.submit();
+    });
+
+
 });
 
-
+/* function message(f) {
+    if (confirm
+        (Swal.fire(
+            'Good job!',
+            'Функция message сработала c условием!',
+            'success'
+        ))
+    )
+        f.submit();
+} */
